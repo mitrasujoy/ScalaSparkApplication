@@ -15,7 +15,8 @@ object SparkSQLApp {
       Cust(2, "Acme Widgets", 410500.00, 500.00, "CA"),
       Cust(3, "Widgetry", 410500.00, 200.00, "CA"),
       Cust(4, "Widgets R Us", 410500.00, 0.0, "CA"),
-      Cust(5, "Ye Olde Widgete", 500.00, 0.0, "MA")
+      Cust(5, "Ye Olde Widgete", 500.00, 0.0, "MA"),
+      Cust(6, "Boxes", 500.00, 0.0, "PA")
     )
     import spark.implicits._
     val customerRDD = spark.sparkContext.parallelize(custs)
